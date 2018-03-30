@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         EditText name = findViewById(R.id.name_field);
-        EditText age = findViewById(R.id.age_field);
+        EditText ageBox = findViewById(R.id.age_field);
         CheckBox hasGraduated = findViewById(R.id.graduated_field);
 
     }

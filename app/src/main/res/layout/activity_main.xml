@@ -22,13 +22,14 @@
         android:id="@+id/age_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Age" />
+        android:hint="Age"
+        android:inputType="number"/>
 
     <CheckBox
         android:id="@+id/graduated_field"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Graduated High School?" />
+        android:text="Graduated High School?" />
 
     <Button
         android:layout_width="match_parent"
