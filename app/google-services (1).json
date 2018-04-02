@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "172090683743",
+    "firebase_url": "https://fir-bare.firebaseio.com",
+    "project_id": "fir-bare",
+    "storage_bucket": "fir-bare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172090683743:android:170d860aab057ff1",
+        "android_client_info": {
+          "package_name": "com.example.android.takehome09_cbest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172090683743-ikk7smd01tgpp240vl2k3ve4ro88c1t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgtHPt55RLKu2bsD-Q5GdVUIK8od3pBZc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
