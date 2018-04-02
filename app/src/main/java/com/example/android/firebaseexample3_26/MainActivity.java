@@ -19,10 +19,8 @@ public class MainActivity extends AppCompatActivity {
     TextView ageBox;
     CheckBox hasGraduated;
 
-    String nameText = name.getEditableText().toString();
-    String ageText = ageBox.getEditableText().toString();
-    int age = Integer.parseInt(ageText);
-    boolean graduated = hasGraduated.isChecked();
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,10 +35,18 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void set(View view) {
+        String nameText = name.getEditableText().toString();
+        String ageText = ageBox.getEditableText().toString();
+        int age = Integer.parseInt(ageText);
+        boolean graduated = hasGraduated.isChecked();
         personRef.setValue(new Person(nameText, age, graduated));
     }
 
     public void add(View view) {
+        String nameText = name.getEditableText().toString();
+        String ageText = ageBox.getEditableText().toString();
+        int age = Integer.parseInt(ageText);
+        boolean graduated = hasGraduated.isChecked();
         peopleRef.push().setValue(new Person(nameText, age, graduated));
     }
 }
